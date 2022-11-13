@@ -1,6 +1,9 @@
+//controller
 #include <stdio.h>
-#include "model.c"
+#include "model.h"
+#include "view.h"
 int main(){
-    printf("hello world %d\n",a);
+    Show(a);
+    printf("\n");
     return 0;
 }
